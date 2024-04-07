@@ -1,0 +1,186 @@
+/************* INFORMAZIONI GENERALI *****************/
+* {
+    box-sizing: border-box;
+} 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#all_page {
+    margin: 0 auto;
+    background-color: #eaeded;
+    
+}
+
+/************************FINE HEADER****************************/
+
+header {
+    background-color: #222f3f;
+}
+
+#logo {
+    padding: 0.7em 1em 0.8em 2.5em;
+}
+
+#logo img {
+    width: 8%;
+    background-size: contain;
+}
+
+
+/************************FINE HEADER****************************/
+
+
+/************************INIZIO NAV****************************/
+
+nav {
+    background-color: #36475B;
+    padding: 0.6em 1em 0.6em 1.8em;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.18em;
+    margin: 0 0.5em;
+    text-align: left;
+}
+/************************FINE NAV****************************/
+
+/************************INZIO MAIN****************************/
+
+section {
+    width: 95%;
+    margin: 2em auto;
+}
+.textcentersection {
+    text-align: center;
+}
+.fontwhitesection {
+    color: white;
+}
+.textmain {
+    font-size:1.5em;
+    
+}
+.textblue {
+    color: #178b91;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+}
+
+/****************** 1° SEZIONE: SHOP ALL HOLIDAY GIFT CARDS *****/
+#firstsection {
+    background-color: #f56600;
+    padding: 0.6em;
+}
+#firstsection p {
+    font-size: 1.2em;
+}
+
+/****************** 2° SEZIONE: SHOP ALL HOLIDAY GIFT CARDS *****/
+
+#secondsection {
+    background-image: url(../images/bg-image.png);
+    background-size: contain;
+    padding: 4.5em 0 4.5em 0;
+    font-weight: bold;
+    line-height: 2;   
+}
+
+#secondsection:hover {
+    background-image: url(../images/bg-img.png);
+    background-size: contain;
+    padding: 4.5em 0 4.5em 0;
+    font-weight: bold;
+    line-height: 2; 
+}
+#secondsection h1 {
+    font-size: 2.7em;   
+}
+
+
+#secondsection p {
+    font-size: 1.5em;   
+}
+
+/****************** 3° SEZIONE: 4 IMMAGINI ****************/
+#thirdsection {
+    background-color: white;
+    
+}
+
+#thirdsection p {
+    padding: 1em 0 0.8em 1em;
+}
+
+#photocontainer  {
+    padding: 1em 0 1.5em 2em;
+}
+
+#photocontainer div {
+    display: inline-block;
+    margin: 1em;
+    width: 22%;
+    
+} 
+#photocontainer div:last-child {
+    margin-right: 0;
+} 
+#photocontainer img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+    box-shadow: 0.1em 0.1em 0.4em rgb(167, 164, 164);
+    
+}
+
+
+/************* 4°/5° SEZIONI IMMAGINI **************/
+.finalimg {
+    margin: 0 0 3em 0;
+}
+.finalimg div {
+    text-align: center;
+}
+.finalimg img {
+    max-width: 100%;
+    background-size: contain;
+}
+.finalimg figcaption {
+    
+    margin: 0.4em 0 0 0;
+}
+
+/***************** INZIO ASIDE ******************/
+aside {
+    background-color: #364759;
+    padding: 1.5em;
+}
+aside a{
+    color: white;
+    font-size: 1.5em;
+    
+}
+/***************** FINE ASIDE ******************/
+
+/************ INZIO FOOTER******************/
+
+footer {
+    background-color: #222f3f;
+    padding: 5em;
+}
+footer div{
+    text-align: center;
+}
+footer img {
+    width: 15%;
+}
+/************ FINE FOOTER******************/
